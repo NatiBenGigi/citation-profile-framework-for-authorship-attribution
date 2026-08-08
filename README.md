@@ -22,6 +22,10 @@ produced in three stages, as described in the article:
 Only after these three stages were the surviving references accumulated
 into `authors_vec_profile.xlsx`.
 
+The raw corpus scan behind `authors_vec_profile.xlsx` is too large for git
+and is published separately as a
+[release asset](https://github.com/NatiBenGigi/citation-profile-framework-for-authorship-attribution/releases/download/raw-data_scan-v1/raw.scan.zip).
+
 ## Quick start
 
 ```bash
@@ -104,10 +108,6 @@ intervals for the top candidates (Table 4).
 | `chunks_by_daf_p12_and_upper_vec_profile.xlsx` | 4.2.3, 4.2.4 (both parts) | The disputed text's second-part (folio 12 to end) citation profile, 1 x 220. |
 | `chunks_by_daf_with_english.xlsx` | 4.2.3, 4.2.4 (first part) | Chunk-level citation rows for the entire disputed text (both parts), used to build the first-part (folio < 12) profile. |
 | `chunks_by_daf_with_english_p12_and_upper.xlsx` | 4.2.4 (second part) | Chunk-level citation rows for the second part only, used for the split-half reliability check. |
-
-The raw corpus scan behind `authors_vec_profile.xlsx` (see Provenance above)
-is too large for git and is published separately as a
-[release asset](https://github.com/NatiBenGigi/citation-profile-framework-for-authorship-attribution/releases/download/raw-data_scan-v1/raw.scan.zip).
 
 ## Dependencies
 
