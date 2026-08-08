@@ -1,5 +1,0 @@
-similarity_cutoff,min_support,flagged_pairs_m,documented_connections_x,precision_pct,expected_by_chance,fold_enrichment,p_value,note
-0.85,10,141,17,12.1,1.21,14.0,1.9e-15,
-0.9,15,52,10,19.2,0.45,22.0,1.4e-11,used in main analysis
-0.92,15,28,6,21.4,0.24,25.0,1.1e-07,weakest cell in grid
-0.92,20,25,6,24.0,0.21,28.0,5.1e-08,
