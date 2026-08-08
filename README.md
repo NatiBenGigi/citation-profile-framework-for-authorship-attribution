@@ -4,8 +4,23 @@ Reproducibility code for the results reported in **"You are what you cite: a
 citation-profile framework for authorship attribution in citation-rich
 traditions"**. This folder is organized **one script per article subsection**
 — each script computes and prints exactly the numbers that subsection of the
-article reports, nothing more. It is self-contained (code + data) and ready
-to upload to GitHub as-is.
+article reports. It is self-contained (code + data).
+
+### Provenance of `authors_vec_profile.xlsx`
+
+This is the baseline corpus matrix (138 citing authors x 220 cited
+authorities, raw citation counts -- see Data dictionary below) and was
+produced in three stages, as described in the article:
+
+1. The responsa project corpus was scanned for citations, as described in
+   the article.
+2. All references to books or rabbis predating 600 CE -- the start of the
+   Geonim period (examples: the Bible or the Talmud) were filtered out.
+3. Claude AI reviewed the remaining scan results and filtered out incorrect
+   references.
+
+Only after these three stages were the surviving references accumulated
+into `authors_vec_profile.xlsx`.
 
 ## Quick start
 
